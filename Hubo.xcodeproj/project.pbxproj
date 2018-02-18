@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5B64572037F6AD0052147E /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64562037F6AD0052147E /* BaseApi.swift */; };
+		DF5B64592037F6DE0052147E /* HuboTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64582037F6DE0052147E /* HuboTabBarController.swift */; };
+		DF5B645B2037F7240052147E /* HuboNewsFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B645A2037F7240052147E /* HuboNewsFeedController.swift */; };
+		DF5B645D2037F7310052147E /* HuboSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B645C2037F7310052147E /* HuboSearchController.swift */; };
+		DF5B645F2037F7560052147E /* HuboDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B645E2037F7560052147E /* HuboDiscoverController.swift */; };
+		DF5B64612037F7670052147E /* HuboProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64602037F7670052147E /* HuboProfileController.swift */; };
+		DF5B64632037F7720052147E /* HuboMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64622037F7720052147E /* HuboMusicController.swift */; };
+		DF5B64652037F7AB0052147E /* NibIntializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64642037F7AB0052147E /* NibIntializable.swift */; };
+		DF5B646B2037FA820052147E /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64692037FA820052147E /* NewsFeedCell.swift */; };
+		DF5B646C2037FA820052147E /* NewsFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5B646A2037FA820052147E /* NewsFeedCell.xib */; };
+		DF5B646E2037FE580052147E /* HuboNewsFeedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5B646D2037FE580052147E /* HuboNewsFeedController.xib */; };
+		DF5B64702037FFD40052147E /* HuboTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B646F2037FFD40052147E /* HuboTextField.swift */; };
+		DF5B64722037FFF80052147E /* HuboButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64712037FFF80052147E /* HuboButton.swift */; };
+		DF5B6474203800180052147E /* HuboView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B6473203800180052147E /* HuboView.swift */; };
+		DF5B64762038032A0052147E /* HuboStartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64752038032A0052147E /* HuboStartScreen.swift */; };
+		DF5B6478203803380052147E /* HuboStartScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5B6477203803380052147E /* HuboStartScreen.xib */; };
+		DF5B647A2038074A0052147E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64792038074A0052147E /* LoginController.swift */; };
+		DF5B647C203807540052147E /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B647B203807540052147E /* SignupController.swift */; };
+		DF5B647E2038075B0052147E /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5B647D2038075B0052147E /* LoginController.xib */; };
+		DF5B6480203807650052147E /* SignupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5B647F203807650052147E /* SignupController.xib */; };
+		DFEE5818203731F4007C0345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE5817203731F4007C0345 /* AppDelegate.swift */; };
+		DFEE581A203731F4007C0345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE5819203731F4007C0345 /* ViewController.swift */; };
+		DFEE581D203731F4007C0345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEE581B203731F4007C0345 /* Main.storyboard */; };
+		DFEE581F203731F4007C0345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEE581E203731F4007C0345 /* Assets.xcassets */; };
+		DFEE5822203731F4007C0345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEE5820203731F4007C0345 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF5B64562037F6AD0052147E /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		DF5B64582037F6DE0052147E /* HuboTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboTabBarController.swift; sourceTree = "<group>"; };
+		DF5B645A2037F7240052147E /* HuboNewsFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboNewsFeedController.swift; sourceTree = "<group>"; };
+		DF5B645C2037F7310052147E /* HuboSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboSearchController.swift; sourceTree = "<group>"; };
+		DF5B645E2037F7560052147E /* HuboDiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboDiscoverController.swift; sourceTree = "<group>"; };
+		DF5B64602037F7670052147E /* HuboProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboProfileController.swift; sourceTree = "<group>"; };
+		DF5B64622037F7720052147E /* HuboMusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboMusicController.swift; sourceTree = "<group>"; };
+		DF5B64642037F7AB0052147E /* NibIntializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibIntializable.swift; sourceTree = "<group>"; };
+		DF5B64692037FA820052147E /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		DF5B646A2037FA820052147E /* NewsFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsFeedCell.xib; sourceTree = "<group>"; };
+		DF5B646D2037FE580052147E /* HuboNewsFeedController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuboNewsFeedController.xib; sourceTree = "<group>"; };
+		DF5B646F2037FFD40052147E /* HuboTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboTextField.swift; sourceTree = "<group>"; };
+		DF5B64712037FFF80052147E /* HuboButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboButton.swift; sourceTree = "<group>"; };
+		DF5B6473203800180052147E /* HuboView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboView.swift; sourceTree = "<group>"; };
+		DF5B64752038032A0052147E /* HuboStartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboStartScreen.swift; sourceTree = "<group>"; };
+		DF5B6477203803380052147E /* HuboStartScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuboStartScreen.xib; sourceTree = "<group>"; };
+		DF5B64792038074A0052147E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DF5B647B203807540052147E /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		DF5B647D2038075B0052147E /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		DF5B647F203807650052147E /* SignupController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupController.xib; sourceTree = "<group>"; };
+		DFEE5814203731F4007C0345 /* Hubo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEE5817203731F4007C0345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFEE5819203731F4007C0345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFEE581C203731F4007C0345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFEE581E203731F4007C0345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFEE5821203731F4007C0345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFEE5823203731F4007C0345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFEE5811203731F4007C0345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5B64532037F5C30052147E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DF5B64642037F7AB0052147E /* NibIntializable.swift */,
+				DF5B646F2037FFD40052147E /* HuboTextField.swift */,
+				DF5B64712037FFF80052147E /* HuboButton.swift */,
+				DF5B6473203800180052147E /* HuboView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DF5B64542037F5CB0052147E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF5B64582037F6DE0052147E /* HuboTabBarController.swift */,
+				DF5B645A2037F7240052147E /* HuboNewsFeedController.swift */,
+				DF5B646D2037FE580052147E /* HuboNewsFeedController.xib */,
+				DF5B645C2037F7310052147E /* HuboSearchController.swift */,
+				DF5B645E2037F7560052147E /* HuboDiscoverController.swift */,
+				DF5B64602037F7670052147E /* HuboProfileController.swift */,
+				DF5B64622037F7720052147E /* HuboMusicController.swift */,
+				DF5B64752038032A0052147E /* HuboStartScreen.swift */,
+				DF5B6477203803380052147E /* HuboStartScreen.xib */,
+				DF5B64792038074A0052147E /* LoginController.swift */,
+				DF5B647D2038075B0052147E /* LoginController.xib */,
+				DF5B647B203807540052147E /* SignupController.swift */,
+				DF5B647F203807650052147E /* SignupController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF5B64552037F6980052147E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				DF5B64562037F6AD0052147E /* BaseApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		DF5B64662037FA420052147E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF5B64692037FA820052147E /* NewsFeedCell.swift */,
+				DF5B646A2037FA820052147E /* NewsFeedCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DFEE580B203731F4007C0345 = {
+			isa = PBXGroup;
+			children = (
+				DFEE5816203731F4007C0345 /* Hubo */,
+				DFEE5815203731F4007C0345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFEE5815203731F4007C0345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE5814203731F4007C0345 /* Hubo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFEE5816203731F4007C0345 /* Hubo */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE5817203731F4007C0345 /* AppDelegate.swift */,
+				DF5B64552037F6980052147E /* Api */,
+				DF5B64662037FA420052147E /* Cell */,
+				DF5B64532037F5C30052147E /* Common */,
+				DF5B64542037F5CB0052147E /* Controller */,
+				DFEE5819203731F4007C0345 /* ViewController.swift */,
+				DFEE581B203731F4007C0345 /* Main.storyboard */,
+				DFEE581E203731F4007C0345 /* Assets.xcassets */,
+				DFEE5820203731F4007C0345 /* LaunchScreen.storyboard */,
+				DFEE5823203731F4007C0345 /* Info.plist */,
+			);
+			path = Hubo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFEE5813203731F4007C0345 /* Hubo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEE5826203731F4007C0345 /* Build configuration list for PBXNativeTarget "Hubo" */;
+			buildPhases = (
+				DFEE5810203731F4007C0345 /* Sources */,
+				DFEE5811203731F4007C0345 /* Frameworks */,
+				DFEE5812203731F4007C0345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hubo;
+			productName = Hubo;
+			productReference = DFEE5814203731F4007C0345 /* Hubo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFEE580C203731F4007C0345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ភី ម៉ារ៉ាសុី";
+				TargetAttributes = {
+					DFEE5813203731F4007C0345 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFEE580F203731F4007C0345 /* Build configuration list for PBXProject "Hubo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFEE580B203731F4007C0345;
+			productRefGroup = DFEE5815203731F4007C0345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFEE5813203731F4007C0345 /* Hubo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFEE5812203731F4007C0345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5B646E2037FE580052147E /* HuboNewsFeedController.xib in Resources */,
+				DFEE5822203731F4007C0345 /* LaunchScreen.storyboard in Resources */,
+				DF5B6478203803380052147E /* HuboStartScreen.xib in Resources */,
+				DF5B647E2038075B0052147E /* LoginController.xib in Resources */,
+				DFEE581F203731F4007C0345 /* Assets.xcassets in Resources */,
+				DF5B646C2037FA820052147E /* NewsFeedCell.xib in Resources */,
+				DFEE581D203731F4007C0345 /* Main.storyboard in Resources */,
+				DF5B6480203807650052147E /* SignupController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFEE5810203731F4007C0345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5B645F2037F7560052147E /* HuboDiscoverController.swift in Sources */,
+				DF5B64612037F7670052147E /* HuboProfileController.swift in Sources */,
+				DFEE581A203731F4007C0345 /* ViewController.swift in Sources */,
+				DFEE5818203731F4007C0345 /* AppDelegate.swift in Sources */,
+				DF5B6474203800180052147E /* HuboView.swift in Sources */,
+				DF5B64572037F6AD0052147E /* BaseApi.swift in Sources */,
+				DF5B64702037FFD40052147E /* HuboTextField.swift in Sources */,
+				DF5B64762038032A0052147E /* HuboStartScreen.swift in Sources */,
+				DF5B647C203807540052147E /* SignupController.swift in Sources */,
+				DF5B645D2037F7310052147E /* HuboSearchController.swift in Sources */,
+				DF5B64592037F6DE0052147E /* HuboTabBarController.swift in Sources */,
+				DF5B64652037F7AB0052147E /* NibIntializable.swift in Sources */,
+				DF5B645B2037F7240052147E /* HuboNewsFeedController.swift in Sources */,
+				DF5B646B2037FA820052147E /* NewsFeedCell.swift in Sources */,
+				DF5B647A2038074A0052147E /* LoginController.swift in Sources */,
+				DF5B64632037F7720052147E /* HuboMusicController.swift in Sources */,
+				DF5B64722037FFF80052147E /* HuboButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFEE581B203731F4007C0345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEE581C203731F4007C0345 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFEE5820203731F4007C0345 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEE5821203731F4007C0345 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFEE5824203731F4007C0345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFEE5825203731F4007C0345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFEE5827203731F4007C0345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				INFOPLIST_FILE = Hubo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rasy.Hubo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFEE5828203731F4007C0345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				INFOPLIST_FILE = Hubo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rasy.Hubo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFEE580F203731F4007C0345 /* Build configuration list for PBXProject "Hubo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEE5824203731F4007C0345 /* Debug */,
+				DFEE5825203731F4007C0345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFEE5826203731F4007C0345 /* Build configuration list for PBXNativeTarget "Hubo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEE5827203731F4007C0345 /* Debug */,
+				DFEE5828203731F4007C0345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFEE580C203731F4007C0345 /* Project object */;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangTC-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HuboStartScreen" customModule="Hubo" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hubo" translatesAutoresizingMaskIntoConstraints="NO" id="rxd-EA-M3k">
+                    <rect key="frame" x="16" y="120" width="342" height="204"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtR-Jf-w2a" customClass="HuboButton" customModule="Hubo" customModuleProvider="target">
+                    <rect key="frame" x="20" y="552" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6Z9-cA-HMg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="25"/>
+                    <state key="normal" title="Login">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                            <color key="value" red="0.2214434445" green="0.83313965800000001" blue="0.81494635339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                            <color key="value" red="0.081475846470000002" green="0.54722470050000005" blue="0.47867250439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FQ-oJ-1mH" customClass="HuboButton" customModule="Hubo" customModuleProvider="target">
+                    <rect key="frame" x="20" y="472" width="335" height="50"/>
+                    <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="25"/>
+                    <state key="normal" title="Register">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                            <color key="value" red="0.2214434445" green="0.83313965800000001" blue="0.81494635339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                            <color key="value" red="0.081475846470000002" green="0.54722470050000005" blue="0.47867250439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4FQ-oJ-1mH" firstAttribute="height" secondItem="wtR-Jf-w2a" secondAttribute="height" id="GdX-Ly-3em"/>
+                <constraint firstItem="wtR-Jf-w2a" firstAttribute="top" secondItem="4FQ-oJ-1mH" secondAttribute="bottom" constant="30" id="HaT-RG-j2k"/>
+                <constraint firstItem="rxd-EA-M3k" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="ITM-7l-Q8d"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4FQ-oJ-1mH" secondAttribute="trailing" constant="20" id="Mcr-ob-Arj"/>
+                <constraint firstItem="wtR-Jf-w2a" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Mr0-rl-rvd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wtR-Jf-w2a" secondAttribute="trailing" constant="20" id="YfO-BR-7kU"/>
+                <constraint firstItem="rxd-EA-M3k" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="aYO-Pk-GbT"/>
+                <constraint firstItem="4FQ-oJ-1mH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="jzl-55-t2X"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="wtR-Jf-w2a" secondAttribute="bottom" constant="65" id="xHe-g1-Aw5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hubo" width="342" height="204"/>
+    </resources>
+</document>

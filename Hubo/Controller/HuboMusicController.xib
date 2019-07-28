@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HuboMusicController" customModule="Hubo" customModuleProvider="target">
+            <connections>
+                <outlet property="endTime" destination="VSX-m8-G37" id="yBb-Cl-v5g"/>
+                <outlet property="musicSlider" destination="j36-sZ-URm" id="5jf-BX-f7A"/>
+                <outlet property="playButton" destination="E5e-NB-3sD" id="uR4-g1-0V1"/>
+                <outlet property="startTime" destination="CsF-cc-NZp" id="Zb0-Fy-lqR"/>
+                <outlet property="view" destination="iN0-l3-epB" id="4KD-dF-LlS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HuboView" customModule="Hubo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ed" translatesAutoresizingMaskIntoConstraints="NO" id="QV2-VE-imz">
+                    <rect key="frame" x="67" y="120" width="240" height="240"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="ipC-vL-ebv"/>
+                        <constraint firstAttribute="height" constant="240" id="x0T-jz-2Jy"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5e-NB-3sD">
+                    <rect key="frame" x="162" y="519" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="mWI-OF-0TZ"/>
+                        <constraint firstAttribute="height" constant="50" id="meB-hO-KnE"/>
+                    </constraints>
+                    <state key="normal" image="ic_play_circle_filled"/>
+                    <connections>
+                        <action selector="actionPlay:" destination="-1" eventType="touchUpInside" id="FtF-og-g6L"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNf-e5-RhI">
+                    <rect key="frame" x="250" y="530" width="24" height="24"/>
+                    <state key="normal" image="ic_skip_next"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ed Sheeran - Divide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFc-BV-T6b">
+                    <rect key="frame" x="107" y="380" width="161" height="24"/>
+                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L21-5a-PkF">
+                    <rect key="frame" x="156.5" y="420" width="63.5" height="24"/>
+                    <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eb7-Sf-iU8">
+                    <rect key="frame" x="20" y="420" width="24" height="24"/>
+                    <state key="normal" image="ic_playlist_add"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EF7-XN-sNe">
+                    <rect key="frame" x="100" y="530" width="24" height="24"/>
+                    <state key="normal" image="ic_skip_previous"/>
+                </button>
+                <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="j36-sZ-URm">
+                    <rect key="frame" x="18" y="482" width="339" height="31"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="onMusicDurationChanged:" destination="-1" eventType="valueChanged" id="I7O-n0-RP1"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsF-cc-NZp">
+                    <rect key="frame" x="20" y="464.5" width="5" height="12"/>
+                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="8"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:14" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSX-m8-G37">
+                    <rect key="frame" x="340" y="464.5" width="15" height="11.5"/>
+                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="8"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LFc-BV-T6b" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="2Ov-L8-iw8"/>
+                <constraint firstItem="E5e-NB-3sD" firstAttribute="leading" secondItem="EF7-XN-sNe" secondAttribute="trailing" constant="38" id="46S-Qm-oH2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VSX-m8-G37" secondAttribute="trailing" constant="20" id="549-hY-att"/>
+                <constraint firstItem="LFc-BV-T6b" firstAttribute="top" secondItem="QV2-VE-imz" secondAttribute="bottom" constant="20" id="5au-2Y-QyR"/>
+                <constraint firstItem="E5e-NB-3sD" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="6NS-Su-mFL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="j36-sZ-URm" secondAttribute="trailing" constant="20" id="InN-Xl-550"/>
+                <constraint firstItem="CsF-cc-NZp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="NxG-y3-KFl"/>
+                <constraint firstItem="j36-sZ-URm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Pzp-ib-cL0"/>
+                <constraint firstItem="Eb7-Sf-iU8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="RrI-Ce-z5e"/>
+                <constraint firstItem="L21-5a-PkF" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="RtN-6U-Tmy"/>
+                <constraint firstItem="j36-sZ-URm" firstAttribute="top" secondItem="VSX-m8-G37" secondAttribute="bottom" constant="6" id="Z9Y-o9-njt"/>
+                <constraint firstItem="L21-5a-PkF" firstAttribute="top" secondItem="LFc-BV-T6b" secondAttribute="bottom" constant="16" id="b0r-Xn-cgn"/>
+                <constraint firstItem="wNf-e5-RhI" firstAttribute="leading" secondItem="E5e-NB-3sD" secondAttribute="trailing" constant="38" id="fgG-NN-Z8N"/>
+                <constraint firstItem="wNf-e5-RhI" firstAttribute="top" secondItem="j36-sZ-URm" secondAttribute="bottom" constant="18" id="gaI-t4-70b"/>
+                <constraint firstItem="EF7-XN-sNe" firstAttribute="top" secondItem="j36-sZ-URm" secondAttribute="bottom" constant="18" id="nE1-nT-Cfs"/>
+                <constraint firstItem="CsF-cc-NZp" firstAttribute="top" secondItem="Eb7-Sf-iU8" secondAttribute="bottom" constant="20.5" id="oGQ-Gb-EWa"/>
+                <constraint firstItem="QV2-VE-imz" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="pYA-4m-ppG"/>
+                <constraint firstItem="QV2-VE-imz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="qdc-JG-hUN"/>
+                <constraint firstItem="j36-sZ-URm" firstAttribute="top" secondItem="L21-5a-PkF" secondAttribute="bottom" constant="38" id="qng-z6-XkB"/>
+                <constraint firstItem="j36-sZ-URm" firstAttribute="top" secondItem="CsF-cc-NZp" secondAttribute="bottom" constant="6" id="r2G-jG-yfE"/>
+                <constraint firstItem="E5e-NB-3sD" firstAttribute="top" secondItem="j36-sZ-URm" secondAttribute="bottom" constant="7" id="sme-Uz-cGP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                    <color key="value" red="0.2214434445" green="0.83313965800000001" blue="0.81494635339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="39.5" y="67.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ed" width="1000" height="1000"/>
+        <image name="ic_play_circle_filled" width="48" height="48"/>
+        <image name="ic_playlist_add" width="24" height="24"/>
+        <image name="ic_skip_next" width="24" height="24"/>
+        <image name="ic_skip_previous" width="24" height="24"/>
+    </resources>
+</document>

@@ -12,7 +12,8 @@ class NewsFeedCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+
     }
 
 }
+

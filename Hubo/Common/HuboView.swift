@@ -78,7 +78,7 @@ class HuboView: UIView {
     private func setupUI() {
         gradientlayer = CAGradientLayer()
         updateUI()
-        layer.addSublayer(gradientlayer)
+        layer.insertSublayer(gradientlayer, at: 0)
     }
 
     // MARK: - Update frame

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0B5396203C142900316B09 /* HuboMusicController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0B5395203C142900316B09 /* HuboMusicController.xib */; };
+		DF0B5398203C1B6A00316B09 /* Happier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF0B5397203C1B6A00316B09 /* Happier.mp3 */; };
+		DF0B539C203C2AE400316B09 /* TimeInterval+ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0B539B203C2AE400316B09 /* TimeInterval+ToString.swift */; };
+		DF10E615203C3BD300AE2A99 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF10E614203C3BD300AE2A99 /* Track.swift */; };
+		DF10E617203C3BE800AE2A99 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF10E616203C3BE800AE2A99 /* Album.swift */; };
+		DF10E619203C3BF100AE2A99 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF10E618203C3BF100AE2A99 /* Artist.swift */; };
 		DF5B64572037F6AD0052147E /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64562037F6AD0052147E /* BaseApi.swift */; };
 		DF5B64592037F6DE0052147E /* HuboTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B64582037F6DE0052147E /* HuboTabBarController.swift */; };
 		DF5B645B2037F7240052147E /* HuboNewsFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B645A2037F7240052147E /* HuboNewsFeedController.swift */; };
@@ -27,6 +33,7 @@
 		DF5B647C203807540052147E /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B647B203807540052147E /* SignupController.swift */; };
 		DF5B647E2038075B0052147E /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5B647D2038075B0052147E /* LoginController.xib */; };
 		DF5B6480203807650052147E /* SignupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5B647F203807650052147E /* SignupController.xib */; };
+		DF9534F52039D35800918D26 /* HuboDiscoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9534F42039D35800918D26 /* HuboDiscoverController.xib */; };
 		DFEE5818203731F4007C0345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE5817203731F4007C0345 /* AppDelegate.swift */; };
 		DFEE581A203731F4007C0345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE5819203731F4007C0345 /* ViewController.swift */; };
 		DFEE581D203731F4007C0345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEE581B203731F4007C0345 /* Main.storyboard */; };
@@ -35,6 +42,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF0B5395203C142900316B09 /* HuboMusicController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuboMusicController.xib; sourceTree = "<group>"; };
+		DF0B5397203C1B6A00316B09 /* Happier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Happier.mp3; sourceTree = "<group>"; };
+		DF0B539B203C2AE400316B09 /* TimeInterval+ToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+ToString.swift"; sourceTree = "<group>"; };
+		DF10E614203C3BD300AE2A99 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		DF10E616203C3BE800AE2A99 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		DF10E618203C3BF100AE2A99 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		DF5B64562037F6AD0052147E /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
 		DF5B64582037F6DE0052147E /* HuboTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboTabBarController.swift; sourceTree = "<group>"; };
 		DF5B645A2037F7240052147E /* HuboNewsFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuboNewsFeedController.swift; sourceTree = "<group>"; };
@@ -55,6 +68,7 @@
 		DF5B647B203807540052147E /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 		DF5B647D2038075B0052147E /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
 		DF5B647F203807650052147E /* SignupController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupController.xib; sourceTree = "<group>"; };
+		DF9534F42039D35800918D26 /* HuboDiscoverController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuboDiscoverController.xib; sourceTree = "<group>"; };
 		DFEE5814203731F4007C0345 /* Hubo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEE5817203731F4007C0345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFEE5819203731F4007C0345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF10E613203C3BC300AE2A99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF10E614203C3BD300AE2A99 /* Track.swift */,
+				DF10E616203C3BE800AE2A99 /* Album.swift */,
+				DF10E618203C3BF100AE2A99 /* Artist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DF5B64532037F5C30052147E /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +106,7 @@
 				DF5B646F2037FFD40052147E /* HuboTextField.swift */,
 				DF5B64712037FFF80052147E /* HuboButton.swift */,
 				DF5B6473203800180052147E /* HuboView.swift */,
+				DF0B539B203C2AE400316B09 /* TimeInterval+ToString.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -94,8 +119,10 @@
 				DF5B646D2037FE580052147E /* HuboNewsFeedController.xib */,
 				DF5B645C2037F7310052147E /* HuboSearchController.swift */,
 				DF5B645E2037F7560052147E /* HuboDiscoverController.swift */,
+				DF9534F42039D35800918D26 /* HuboDiscoverController.xib */,
 				DF5B64602037F7670052147E /* HuboProfileController.swift */,
 				DF5B64622037F7720052147E /* HuboMusicController.swift */,
+				DF0B5395203C142900316B09 /* HuboMusicController.xib */,
 				DF5B64752038032A0052147E /* HuboStartScreen.swift */,
 				DF5B6477203803380052147E /* HuboStartScreen.xib */,
 				DF5B64792038074A0052147E /* LoginController.swift */,
@@ -147,11 +174,13 @@
 				DF5B64662037FA420052147E /* Cell */,
 				DF5B64532037F5C30052147E /* Common */,
 				DF5B64542037F5CB0052147E /* Controller */,
+				DF10E613203C3BC300AE2A99 /* Model */,
 				DFEE5819203731F4007C0345 /* ViewController.swift */,
 				DFEE581B203731F4007C0345 /* Main.storyboard */,
 				DFEE581E203731F4007C0345 /* Assets.xcassets */,
 				DFEE5820203731F4007C0345 /* LaunchScreen.storyboard */,
 				DFEE5823203731F4007C0345 /* Info.plist */,
+				DF0B5397203C1B6A00316B09 /* Happier.mp3 */,
 			);
 			path = Hubo;
 			sourceTree = "<group>";
@@ -218,10 +247,13 @@
 				DF5B646E2037FE580052147E /* HuboNewsFeedController.xib in Resources */,
 				DFEE5822203731F4007C0345 /* LaunchScreen.storyboard in Resources */,
 				DF5B6478203803380052147E /* HuboStartScreen.xib in Resources */,
+				DF0B5396203C142900316B09 /* HuboMusicController.xib in Resources */,
 				DF5B647E2038075B0052147E /* LoginController.xib in Resources */,
+				DF9534F52039D35800918D26 /* HuboDiscoverController.xib in Resources */,
 				DFEE581F203731F4007C0345 /* Assets.xcassets in Resources */,
 				DF5B646C2037FA820052147E /* NewsFeedCell.xib in Resources */,
 				DFEE581D203731F4007C0345 /* Main.storyboard in Resources */,
+				DF0B5398203C1B6A00316B09 /* Happier.mp3 in Resources */,
 				DF5B6480203807650052147E /* SignupController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +268,10 @@
 				DF5B645F2037F7560052147E /* HuboDiscoverController.swift in Sources */,
 				DF5B64612037F7670052147E /* HuboProfileController.swift in Sources */,
 				DFEE581A203731F4007C0345 /* ViewController.swift in Sources */,
+				DF0B539C203C2AE400316B09 /* TimeInterval+ToString.swift in Sources */,
+				DF10E615203C3BD300AE2A99 /* Track.swift in Sources */,
 				DFEE5818203731F4007C0345 /* AppDelegate.swift in Sources */,
+				DF10E619203C3BF100AE2A99 /* Artist.swift in Sources */,
 				DF5B6474203800180052147E /* HuboView.swift in Sources */,
 				DF5B64572037F6AD0052147E /* BaseApi.swift in Sources */,
 				DF5B64702037FFD40052147E /* HuboTextField.swift in Sources */,
@@ -250,6 +285,7 @@
 				DF5B647A2038074A0052147E /* LoginController.swift in Sources */,
 				DF5B64632037F7720052147E /* HuboMusicController.swift in Sources */,
 				DF5B64722037FFF80052147E /* HuboButton.swift in Sources */,
+				DF10E617203C3BE800AE2A99 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

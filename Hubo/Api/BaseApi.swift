@@ -8,6 +8,49 @@
 
 import Foundation
 
-struct BaseApi {
-    
+enum HTTPMethod {
+    case post
+    case get
+    case put
+
+    var value: String {
+        switch self {
+        case .get:
+            return "GET"
+        case .post:
+            return "POST"
+        case .put:
+            return "PUT"
+        }
+    }
 }
+
+enum MusicApi {
+    case artist
+    case album
+    case track
+    case geners
+    case playlists
+    case stations
+    case editorialPosts
+    case tag
+    case search
+    case versions
+    case user
+
+    var httpMethod: HTTPMethod {
+        return .get
+    }
+
+}
+
+struct BaseApi {
+
+    let baseURL = ""
+    let endPoint = ""
+    let params = ""
+    let authToken = ""
+
+}
+
+

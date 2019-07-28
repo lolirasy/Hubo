@@ -6,4 +6,12 @@
 //  Copyright © 2018 ភី ម៉ារ៉ាសុី. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class SignupController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+}
